@@ -12,6 +12,8 @@ t_MOVE = r'avanza'
 t_TURNLEFT = r'gira-izquierda'
 t_PICKBEEPER = r'coge-zumbador'
 t_PUTBEEPER = r'deja-zumbador'
+t_ignore = ' \n'' \t'
+
 
 def t_error(t):
     print("Caracter invalido '%s'" % t.value[0])
